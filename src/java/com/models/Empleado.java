@@ -1,6 +1,8 @@
 package com.models;
 
-public class Empleado {
+import java.io.Serializable;
+
+public class Empleado implements Serializable{
     
     private String idEmpleado;
     private String nombre; 

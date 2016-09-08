@@ -66,7 +66,7 @@
                             </c:forEach>
                         </select><br>
                         <input type="submit" class="btn btn-success" value="Actualizar">
-                        <a href="MuestraEmpleados.jsp" class="btn btn-danger" role="button">Cancelar</a>
+                        <a href="Empleados" class="btn btn-danger" role="button">Cancelar</a>
                     </form>
                     
                 </div>

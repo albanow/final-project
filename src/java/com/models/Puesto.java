@@ -1,6 +1,8 @@
 package com.models;
 
-public class Puesto {
+import java.io.Serializable;
+
+public class Puesto implements Serializable{
 
     private String idPuesto;
     private String nombrePuesto;

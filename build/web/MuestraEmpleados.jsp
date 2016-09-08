@@ -16,7 +16,16 @@
         
         <% ArrayList<Empleado> empleados = (ArrayList<Empleado>) session.getAttribute("empleados");
         %>
-        <table class="table table-bordered table-hover table-condensed">
+        <div class="container myLogin" >
+            <a href="Principal.jsp" class='btn btn-primary' role='button'>
+                Principal <span class='glyphicon glyphicon-home' aria-hidden='true'></span>
+            </a>
+            <a href="PuestosDepartamentos" class='btn btn-primary' role='button'>
+                Agregar Empleado <span class='glyphicon glyphicon-plus-sign' aria-hidden='true'></span>
+            </a>
+        </div><br>
+        <div class="container">
+            <table class="table table-bordered table-hover table-condensed">
             <thead>
                 <tr>
                     <th><strong>Nombre (completo)</strong></th>
@@ -26,7 +35,7 @@
                     <th>Departamento</th>
                     <th></th>
                     <th></th>
-                    <th></th>
+                    
                 </tr>
             </thead>
             <tbody>
@@ -48,7 +57,7 @@
                             <c:out value="${employees.getDepartamento()}" /> 
                         </td>
                         <td>
-                            <a href="http://localhost:8084/ProyectoFinal/EliminaEmpleado?idEmpleado=<c:out value="${employees.getIdEmpleado()}"/>" 
+                            <a href="EliminaEmpleado?idEmpleado=<c:out value="${employees.getIdEmpleado()}"/>" 
                                class='btn btn-danger' 
                                role='button' 
                                onclick="return confirm('Eliminar empleado?')">
@@ -56,7 +65,7 @@
                             </a>
                         </td>
                         <td>
-                            <a href="http://localhost:8084/ProyectoFinal/ObtenerEmpleado?idEmpleado=<c:out value="${employees.getIdEmpleado()}"/>" 
+                            <a href="ObtenerEmpleado?idEmpleado=<c:out value="${employees.getIdEmpleado()}"/>" 
                                class='btn btn-primary' 
                                role='button'>
                                 Editar <span class='glyphicon glyphicon-pencil' aria-hidden='true'></span>
@@ -68,5 +77,7 @@
 
             </tbody>
         </table>
+        </div>
+        
     </body>
 </html>

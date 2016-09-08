@@ -33,9 +33,9 @@ public class ValidaAcceso extends HttpServlet {
             String validacion = stmt.getString(1);
 
             if (validacion.equals("OK")) {
-                response.sendRedirect("http://localhost:8084/ProyectoFinal/Principal.jsp");
+                response.sendRedirect("Principal.jsp");
             } else {
-                response.sendRedirect("http://localhost:8084/ProyectoFinal/ErrorLogin.jsp");
+                response.sendRedirect("ErrorLogin.jsp");
 
             }
         } 

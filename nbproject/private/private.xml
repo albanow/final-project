@@ -3,13 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/albano/Documents/javaDiplomado/javaprojects/ProyectoFinal/diplomado.sql</file>
-            <file>file:/home/albano/Documents/javaDiplomado/javaprojects/ProyectoFinal/src/java/com/controllers/ObtenerEmpleado.java</file>
-            <file>file:/home/albano/Documents/javaDiplomado/javaprojects/ProyectoFinal/web/EditaEmpleado.jsp</file>
-            <file>file:/home/albano/Documents/javaDiplomado/javaprojects/ProyectoFinal/web/MuestraEmpleados.jsp</file>
-            <file>file:/home/albano/Documents/javaDiplomado/javaprojects/ProyectoFinal/src/java/com/models/Departamento.java</file>
-            <file>file:/home/albano/Documents/javaDiplomado/javaprojects/ProyectoFinal/src/java/com/models/Empleado.java</file>
-            <file>file:/home/albano/Documents/javaDiplomado/javaprojects/ProyectoFinal/src/java/com/controllers/EditarEmpleado.java</file>
+            <file>file:/C:/Users/1320258/Documents/NetBeansProjects/ProyectoFinal/src/java/com/controllers/PuestosDepartamentos.java</file>
+            <file>file:/C:/Users/1320258/Documents/NetBeansProjects/ProyectoFinal/web/AgregarEmpleado.jsp</file>
+            <file>file:/C:/Users/1320258/Documents/NetBeansProjects/ProyectoFinal/web/Login.jsp</file>
+            <file>file:/C:/Users/1320258/Documents/NetBeansProjects/ProyectoFinal/src/java/com/controllers/AgregarEmpleado.java</file>
+            <file>file:/C:/Users/1320258/Documents/NetBeansProjects/ProyectoFinal/diplomado.sql</file>
+            <file>file:/C:/Users/1320258/Documents/NetBeansProjects/ProyectoFinal/src/java/com/controllers/EliminaEmpleado.java</file>
         </group>
     </open-files>
 </project-private>

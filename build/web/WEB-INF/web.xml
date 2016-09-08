@@ -29,6 +29,14 @@
         <servlet-name>ObtenerEmpleado</servlet-name>
         <servlet-class>com.controllers.ObtenerEmpleado</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>PuestosDepartamentos</servlet-name>
+        <servlet-class>com.controllers.PuestosDepartamentos</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AgregarEmpleado</servlet-name>
+        <servlet-class>com.controllers.AgregarEmpleado</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>ValidaAcceso</servlet-name>
         <url-pattern>/ValidaAcceso</url-pattern>
@@ -48,6 +56,14 @@
     <servlet-mapping>
         <servlet-name>ObtenerEmpleado</servlet-name>
         <url-pattern>/ObtenerEmpleado</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PuestosDepartamentos</servlet-name>
+        <url-pattern>/PuestosDepartamentos</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AgregarEmpleado</servlet-name>
+        <url-pattern>/AgregarEmpleado</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

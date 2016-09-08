@@ -57,7 +57,7 @@ public class ObtenEmpleados extends HttpServlet {
             System.out.println(e.toString());
         }
         finally{
-            
+            DBUtil.cierraConexion(conn);
         }
     }
 
